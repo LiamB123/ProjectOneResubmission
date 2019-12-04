@@ -1,5 +1,15 @@
 .masthead{
-    padding:0px;
-    border:0px;
-    margin:0px;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../../assets/img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title-image-text{
+    color:aliceblue;
+    font-weight:800;
+    font-size: 500%;
+
 }
