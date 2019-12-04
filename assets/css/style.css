@@ -1,7 +1,7 @@
 .masthead{
   height: 100vh;
   min-height: 500px;
-  background-image: url('../../assets/img/header.jpg');
+  background-image: url('../../assets/img/header2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,4 +20,9 @@
 
 .card-text{
     text-align: center;
+}
+
+.section-coloring{
+    background-color: #A9A9A9;
+    color: #A9A9A9;
 }
