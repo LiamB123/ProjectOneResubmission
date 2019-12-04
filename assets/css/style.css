@@ -10,10 +10,14 @@
 .title-image-text{
     color:aliceblue;
     font-weight:800;
-    font-size: 500%;
+    font-size: 800%;
     }
 
 .img-sizing{
     height:40rem;
 
+}
+
+.card-text{
+    text-align: center;
 }
