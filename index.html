@@ -31,7 +31,7 @@
         <a class="nav-link" href="https://thecoral.tmstor.es/">Merchandise! <span class="sr-only">(current)</span></a>
       </li>
        <li class="nav-item active">
-        <a class="nav-link" href="#book_now">Book Now!<span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#book_now">Book Now!<span class="sr-only">(current)</span></a>
       </li>
        <li class="nav-item active">
         <a class="nav-link" href="#contact_us">Contact Us!<span class="sr-only">(current)</span></a>
@@ -64,10 +64,6 @@
     </div>
   </div>
 </header>
-<hr>
-
-
-   
 </section>
 
 <section>
@@ -88,13 +84,35 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <form>
+            <div class="form-group">
+                <label for="Email">Email address</label>
+                <input type="email" class="form-control" id="Email" placeholder="We will never share this information!">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">What kind of party are we throwing?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+      <option>Wedding or Celebration!</option>
+      <option>Communion/Conformation</option>
+      <option>Family Gathering!</option>
+      <option>Birthday Shindig!</option>
+    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Any special requests or comments? Let us know before we meet</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-warning">Book Now!</button>
+            <hr>
+        </form>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
